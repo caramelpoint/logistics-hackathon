@@ -50,7 +50,7 @@ export type TableRowType = {
 const columns: GridColDef[] = [
   { headerClassName: 'super-app-theme--header', field: 'id', headerName: 'Order ID', width: 300 },
   { headerClassName: 'super-app-theme--header', field: 'sku', headerName: 'SKU', width: 150 },
-  { headerClassName: 'super-app-theme--header', field: 'status', headerName: 'Status', width: 120 },
+  { headerClassName: 'super-app-theme--header', field: 'status', headerName: 'Status', width: 150 },
   { headerClassName: 'super-app-theme--header', field: 'address', headerName: 'Destination Address', width: 150 },
   { headerClassName: 'super-app-theme--header', field: 'tracking', headerName: 'Tracking ID', width: 300 },
 ]

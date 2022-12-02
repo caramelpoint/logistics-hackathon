@@ -12,13 +12,13 @@ const $Title = styled.h1<{ section: SectionsType }>`
   color: ${({ theme }) => theme.palette.colors.wisteria};
   z-index: 1;
   position: ${({ section }) => (section === SectionsType.ORDERS ? 'absolute' : 'none')};
-  padding: ${({ section }) => (section === SectionsType.ORDERS ? '0 30px' : '0')};
-  margin-top: ${({ section }) => (section === SectionsType.ORDERS ? '80px' : '40px')};
-  margin-left: ${({ section }) => (section === SectionsType.ORDERS ? '90px' : '40px')};
+  margin-top: 80px;
+  margin-left: 30px;
 `
 
 const $SectionContent = styled.div`
   width: 100%;
+  max-width: 1200px;
   height: 100%;
 `
 interface SectionLayoutProps {

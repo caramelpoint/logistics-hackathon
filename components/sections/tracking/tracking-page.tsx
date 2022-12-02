@@ -10,6 +10,7 @@ import { getDeliveredAndOrderedEvents } from '../../../utils/events'
 
 const $Container = styled.div`
   margin-top: 40px;
+  padding-left: 30px;
 `
 export const TrackingPage = () => {
   const [showTrackingInfo, setShowTrackingInfo] = useState<boolean>(false)
